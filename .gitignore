@@ -1,0 +1,27 @@
+# Environment
+venv/
+venv_tf/
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases
+*.db
+*.sqlite3
+records.db
+
+# Large Datasets / Assets
+Dataset/
+records.zip
+*.zip
+*.tar.gz
+*.h5
+*.pb
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

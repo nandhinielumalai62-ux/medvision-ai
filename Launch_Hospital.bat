@@ -1,0 +1,9 @@
+@echo off
+title MedVision AI Hospital System
+echo 🔍 Activating Virtual Environment...
+call .venv\Scripts\activate.ps1
+echo 🧪 Verifying AI Model...
+python model/check_model.py
+echo 🚀 Launching Clinical Dashboard...
+streamlit run src/app.py
+pause
